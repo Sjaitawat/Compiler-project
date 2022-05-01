@@ -1,0 +1,42 @@
+.language {
+    display: inline;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  #source {
+    width: 100% !important;
+    background:  #E6E6FA;
+    height: 50vh;
+    font-size: 15px;
+    resize: vertical;
+  }
+  #input {
+    background: #E6E6FA;
+    width: 30%;
+    height: 17vh;
+    resize: vertical;
+    font-size: 17px;
+  }
+  #output {
+    background:  #E6E6FA;
+    width: 60%;
+    height: 48%;
+    position:fixed;
+    top: 7%;
+    font-size: 18px;
+    right: 0;
+    resize:vertical;
+     margin-left:10px ;
+  }
+  .language {
+    width: 150px;
+  }
+
+
+
+  /* ////////// hit and trial/// */
+
+#outputHeading{
+  margin-left: 460px;
+}
