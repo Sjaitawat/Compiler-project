@@ -39,7 +39,7 @@ export default class Compiler extends Component {
         method: "POST",
         headers: {
           "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
-          "x-rapidapi-key": "7df872d0c6msh1873f471c4011c6p1e13f0jsn50fb453ad585", // Get yours for free at https://rapidapi.com/judge0-official/api/judge0-ce/
+          "x-rapidapi-key": "7df872d0c6msh1873f471c4011c6p1e13f0jsn50fb453ad585", 
           "content-type": "application/json",
           accept: "application/json",
         },
@@ -70,7 +70,7 @@ export default class Compiler extends Component {
           method: "GET",
           headers: {
             "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
-            "x-rapidapi-key": "7df872d0c6msh1873f471c4011c6p1e13f0jsn50fb453ad585", // Get yours for free at https://rapidapi.com/judge0-official/api/judge0-ce/
+            "x-rapidapi-key": "7df872d0c6msh1873f471c4011c6p1e13f0jsn50fb453ad585", 
             "content-type": "application/json",
           },
         });
@@ -105,7 +105,7 @@ export default class Compiler extends Component {
             </label>
 
 
-            {/* //Hit and trial */}
+            {/* trial */}
 
             
             <label id="outputHeading" htmlFor="solution ">
@@ -134,7 +134,7 @@ export default class Compiler extends Component {
               onClick={this.submit}
             >
               <i className="fas fa-cog fa-fw"></i> Run
-            </button>
+            </button><br/><br/>
 
             <label htmlFor="tags" className="mr-1">
               <b className="heading">Language:</b>
@@ -161,8 +161,8 @@ export default class Compiler extends Component {
           </div>
         </div>
         <div className="mt-2 ml-5">
-          <span className="badge badge-primary heading my-2 ">
-            <i className="fas fa-user fa-fw fa-md"></i> User Input
+          <span className="badge badge-primary heading my-2 "id="ip">
+            <i className="fas fa-user fa-fw fa-md" ></i> User Input
           </span>
           <br />
           <textarea id="input" onChange={this.userInput}></textarea>

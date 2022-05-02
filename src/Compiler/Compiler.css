@@ -21,12 +21,13 @@
   #output {
     background:  #E6E6FA;
     width: 61%;
-    height: 48%;
+    height: 51%;
     position:fixed;
     top: 7%;
     font-size: 18px;
     right: 0;
     resize:vertical;
+    margin-top: -15px;
      margin-left:10px ;
   }
   .language {
@@ -35,8 +36,13 @@
 
 
 
-  /* ////////// hit and trial/// */
+  /* ////////// trial/// */
 
 #outputHeading{
-  margin-left: 460px;
+  margin-left: 455px;}
+
+#ip{
+  margin-top: 15px;
+  margin-bottom:5px;
+  
 }
